@@ -1,0 +1,39 @@
+
+  
+  .background-color p {
+    color: #000;
+
+    font-family: "Josefin Sans"; 
+    font-size: 50px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 100; 
+    line-height: 100px;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    max-width: 700px;
+    text-align: center;
+    background: rgba(255, 86, 115, 1);
+    background: -webkit-linear-gradient( left, #00ffff 0%, #ffc5ae 15%, #97b1fb 50%, #bee8e2 100%) repeat;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation-name: masked-animation;
+    -webkit-animation-duration: 70s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  }
+  
+  @-webkit-keyframes masked-animation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -8000px -3000px;
+    }
+  }
