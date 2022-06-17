@@ -9,14 +9,111 @@ body {
 }
 
 /*---------------------------------------
-    Typorgraphy              
+    hover me            
 -----------------------------------------*/
-.highlight {
-  background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+.hoverme::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.hoverme:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hoverme::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 30px;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  place-content: center;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgba(202, 237, 255, 0.63);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.hoverme {
+  position: relative;
+  font-size: 5rem;
+}
+
+
+/*---------------------------------------
+    hover me  2          
+-----------------------------------------*/
+.hoverme2::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.hoverme2:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hoverme2::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 30px;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: auto;
+  place-content: center;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: rgba(255, 189, 201, 0.396);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+.hoverme2 {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+/*---------------------------------------
+    hightlight text effect & font          
+-----------------------------------------*/
+.underline-03 {
+  -webkit-text-decoration: underline dotted #59bfb3;
+  text-decoration: underline dotted #59bfb3;
+}
+
+.underline-04 {
+  -webkit-text-decoration: underline dashed #f2a640;
+  text-decoration: underline dashed #f2a640;
+}
+
+.underline-05 {
+  -webkit-text-decoration: underline wavy #22a4be;
+  text-decoration: underline wavy #22a4be;
+}
+
+/* gradient underline */
+.underline-06 {
+  background-image: linear-gradient(90deg, #e6739945, #f2a5405c);
+  background-position: bottom;
+  background-size: 100% 30%;
   background-repeat: no-repeat;
-  background-size: 100% 95%;
+}
+
+
+
+.highlight {
+  background: url(/asset/brush.png) ;
+  background-repeat: no-repeat;
+  background-size: 104% 85%;
+  position: relative;
   padding: 8px 0;
   }
+
+
 
   
 .font01{
