@@ -14,7 +14,7 @@
     max-width: 700px;
     text-align: center;
     background: rgba(255, 86, 115, 1);
-    background: -webkit-linear-gradient( left, #00ffff 0%, #ffc5ae 15%, #97b1fb 50%, #bee8e2 100%) repeat;
+    background: -webkit-linear-gradient( left, #00ffff 0%, #f59f7e 15%,#ff99c9 35%, #97b1fb 60%, #bee8e2 100%) repeat;
     -webkit-background-clip: text;
     -ms-background-clip: text;
     -moz-background-clip: text;
