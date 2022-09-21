@@ -1,5 +1,18 @@
 
 
+
+
+
+
+body {
+  background-color: #ddd;
+  padding: 100px 20px 20px 20px;
+}
+
+
+
+
+
 body {
 	background: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -313,7 +326,7 @@ footer {
     background: #ffffff;
     border: none;
     box-shadow: 0px;
-    padding-top: 22px;
+    padding-top: -5px;
     margin: 0 !important;
 }
 
@@ -416,7 +429,7 @@ footer {
   font-size: 27px;
   line-height: 42px;
   letter-spacing: 1px;
-  padding-top: 18px;
+  padding-top: 0px;
   text-align: center;
 
 }
@@ -484,14 +497,6 @@ footer {
   color: #242424;
 }
 
-#about .chart-icon .fa {
-  position: absolute;
-  top:50%;
-  margin-top: -12px;
-  left:0;
-  width: 100%;
-  font-size: 24px;
-}
 
 
 /*---------------------------------------
